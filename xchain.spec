@@ -15,9 +15,9 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %define		_mandir		%{_prefix}/man
 
 %description
-Chain Reaction is a classic strategy game for 2-4 players. Players take turns
-to place tokens on an 8x8 board. When a square exceeds it's maximum value, it
-explodes, setting off the surrounding squares.
+Chain Reaction is a classic strategy game for 2-4 players. Players
+take turns to place tokens on an 8x8 board. When a square exceeds it's
+maximum value, it explodes, setting off the surrounding squares.
 
 %prep
 %setup -q
