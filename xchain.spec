@@ -19,6 +19,11 @@ Chain Reaction is a classic strategy game for 2-4 players. Players
 take turns to place tokens on an 8x8 board. When a square exceeds it's
 maximum value, it explodes, setting off the surrounding squares.
 
+%description -l pl
+Chain Reaction to klasyczna gra strategiczna dla 2-4 graczy. Gracze po
+kolei umieszczaj± elementy na planszy 8x8. Kiedy kwadrat przekroczy
+warto¶æ maksymaln±, eksploduje, zmieniaj±c s±siednie kwadraty.
+
 %prep
 %setup -q
 
