@@ -6,6 +6,7 @@ Release:	1
 License:	GPL
 Group:		X11/Applications/Games
 Source0:	http://ftp.debian.org/debian/pool/main/x/xchain/%{name}_%{version}.orig.tar.gz
+# Source0-md5:	4b4d5912f0fcd6b8f43426ab0a5cc4f3
 Source1:	%{name}.desktop
 Source2:	%{name}.png
 Requires:	/usr/bin/wish
