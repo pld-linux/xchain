@@ -7,3 +7,4 @@ Icon=xchain.png
 Exec=xchain
 Terminal=false
 Type=Application
+# vi: encoding=utf-8
