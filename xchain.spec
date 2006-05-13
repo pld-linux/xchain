@@ -35,12 +35,12 @@ gunzip xchain.6.gz
 
 %install
 rm -rf $RPM_BUILD_ROOT
-install -d $RPM_BUILD_ROOT{%{_bindir},%{_mandir}/man6,%{_pixmapsdir},%{_applnkdir}/Games/Strategy}
+install -d $RPM_BUILD_ROOT{%{_bindir},%{_mandir}/man6,%{_pixmapsdir},%{_desktopdir}}
 
 install xchain $RPM_BUILD_ROOT%{_bindir}
 install xchain.6 $RPM_BUILD_ROOT%{_mandir}/man6
 
-install %{SOURCE1} $RPM_BUILD_ROOT%{_applnkdir}/Games/Strategy
+install %{SOURCE1} $RPM_BUILD_ROOT%{_desktopdir}
 install %{SOURCE2} $RPM_BUILD_ROOT%{_pixmapsdir}
 
 %clean
@@ -52,4 +52,4 @@ rm -rf $RPM_BUILD_ROOT
 %attr(755,root,root) %{_bindir}/*
 %{_mandir}/man6/*
 %{_pixmapsdir}/*
-%{_applnkdir}/Games/Strategy/*
+%{_desktopdir}/*
