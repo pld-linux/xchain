@@ -1,5 +1,5 @@
 Summary:	A strategy game for 2-4 players
-Summary(pl):	Gra strategiczna dla 2-4 graczy
+Summary(pl.UTF-8):   Gra strategiczna dla 2-4 graczy
 Name:		xchain
 Version:	1.0.1
 Release:	1
@@ -20,10 +20,10 @@ Chain Reaction is a classic strategy game for 2-4 players. Players
 take turns to place tokens on an 8x8 board. When a square exceeds it's
 maximum value, it explodes, setting off the surrounding squares.
 
-%description -l pl
+%description -l pl.UTF-8
 Chain Reaction to klasyczna gra strategiczna dla 2-4 graczy. Gracze po
-kolei umieszczaj± elementy na planszy 8x8. Kiedy kwadrat przekroczy
-warto¶æ maksymaln±, eksploduje, zmieniaj±c s±siednie kwadraty.
+kolei umieszczajÄ… elementy na planszy 8x8. Kiedy kwadrat przekroczy
+wartoÅ›Ä‡ maksymalnÄ…, eksploduje, zmieniajÄ…c sÄ…siednie kwadraty.
 
 %prep
 %setup -q
