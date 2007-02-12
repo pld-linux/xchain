@@ -1,5 +1,5 @@
 Summary:	A strategy game for 2-4 players
-Summary(pl.UTF-8):   Gra strategiczna dla 2-4 graczy
+Summary(pl.UTF-8):	Gra strategiczna dla 2-4 graczy
 Name:		xchain
 Version:	1.0.1
 Release:	1
