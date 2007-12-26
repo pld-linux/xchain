@@ -1,9 +1,8 @@
 [Desktop Entry]
-Encoding=UTF-8
 Name=Chain Reaction
 Comment=Strategy game for 2-4 players
 Comment[pl]=Gra strategiczna dla 2-4 graczy
-Icon=xchain.png
+Icon=xchain
 Exec=xchain
 Terminal=false
 Type=Application
